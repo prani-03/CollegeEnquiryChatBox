@@ -1,0 +1,120 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hey",
+                "hello",
+                "good morning",
+                "good afternoon",
+                "good evening"
+            ],
+            "responses": [
+                "Hi there! How can I help you today?",
+                "Hello! What's on your mind?",
+                "Good day!  Ask me anything."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you",
+                "talk to you later",
+                "end"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "See you later!",
+                "Bye bye!"
+            ]
+        },
+        {
+            "tag": "admission_requirements",
+            "patterns": [
+                "what are the admission requirements?",
+                "how do I apply?",
+                "what do I need to apply?",
+                "application process",
+                "admission criteria"
+            ],
+            "responses": [
+                "Admission requirements vary by program.  Please visit [link to admissions page] for detailed information.",
+                "To apply, you'll need to submit an application form, transcripts, and letters of recommendation.  More details can be found here: [link to admissions page]"
+            ]
+        },
+        {
+            "tag": "tuition_fees",
+            "patterns": [
+                "how much is tuition?",
+                "what are the fees?",
+                "tuition costs",
+                "cost of attendance",
+                "what are the tuition fees?"
+            ],
+            "responses": [
+                "Tuition fees vary depending on the program and the number of credits. You can find a detailed breakdown on our tuition page: [link to tuition page]",
+                "Please visit [link to tuition page] for information on tuition fees and associated costs."
+            ]
+        },
+        {
+            "tag": "financial_aid",
+            "patterns": [
+                "financial aid",
+                "scholarships",
+                "grants",
+                "student loans",
+                "how to pay for college",
+                "afford college"
+            ],
+            "responses": [
+                "We offer a variety of financial aid options, including scholarships, grants, and student loans.  Learn more at: [link to financial aid page]",
+                "Explore our financial aid opportunities here: [link to financial aid page]"
+            ]
+        },
+        {
+            "tag": "program_information",
+            "patterns": [
+                "what programs do you offer?",
+                "what majors are available?",
+                "list of programs",
+                "degree programs",
+                "courses offered"
+            ],
+            "responses": [
+                "We offer a wide range of programs.  You can find a complete list here: [link to programs page]",
+                "Explore our academic programs at: [link to programs page]"
+            ]
+        },
+        {
+            "tag": "contact_information",
+            "patterns": [
+                "contact information",
+                "phone number",
+                "email address",
+                "how to contact you",
+                "reach you"
+            ],
+            "responses": [
+                "You can reach us by phone at [phone number] or email at [email address].  Our address is [address].",
+                "Our contact details are available here: [link to contact page]"
+            ]
+        },
+        {
+            "tag": "campus_life",
+            "patterns": [
+                "campus life",
+                "student activities",
+                "clubs",
+                "extracurricular activities",
+                "campus facilities"
+            ],
+            "responses": [
+                "We have a vibrant campus life with numerous student clubs and organizations. Learn more about campus life at: [link to campus life page]",
+                "Discover our campus community here: [link to campus life page]"
+            ]
+        }
+    ]
+}

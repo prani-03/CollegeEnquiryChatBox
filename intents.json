@@ -1,0 +1,71 @@
+{
+    "intents": [
+        {
+            "tag": "admission",
+            "patterns": [
+                "What are the admission requirements?",
+                "How do I apply for admission?",
+                "What documents are needed for admission?",
+                "Can you tell me about the application process?",
+                "What is the deadline for applications?"
+            ],
+            "responses": [
+                "The admission requirements include a completed application form, transcripts, and recommendation letters. Please check our website for detailed information.",
+                "You can apply online through our admissions portal. Make sure to submit all required documents before the deadline."
+            ]
+        },
+        {
+            "tag": "courses",
+            "patterns": [
+                "What courses do you offer?",
+                "Can you provide information about the courses?",
+                "What majors are available?",
+                "Do you have online courses?",
+                "Are there any new courses being introduced?"
+            ],
+            "responses": [
+                "We offer a variety of courses including Computer Science, Business Administration, Engineering, and more. Check our course catalog for a complete list.",
+                "Our majors include Arts, Sciences, Engineering, and Business. You can find detailed descriptions on our website."
+            ]
+        },
+        {
+            "tag": "tuition",
+            "patterns": [
+                "How much is the tuition fee?",
+                "What are the fees for international students?",
+                "Are there any additional costs?",
+                "Is there a payment plan available?"
+            ],
+            "responses": [
+                "The tuition fee is $10,000 per year for domestic students and $15,000 for international students. Additional costs may include books and supplies.",
+                "We offer various payment plans to help manage tuition fees. Please visit our financial services page for more details."
+            ]
+        },
+        {
+            "tag": "scholarships",
+            "patterns": [
+                "Do you offer scholarships?",
+                "How can I apply for a scholarship?",
+                "What types of financial aid are available?",
+                "Are there merit-based scholarships?"
+            ],
+            "responses": [
+                "Yes, we offer several scholarships based on academic performance and financial need. You can apply through our financial aid office.",
+                "For more information on scholarships and financial aid options, please visit our financial aid webpage."
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "How can I contact the admissions office?",
+                "What is the phone number for student services?",
+                "Where is the college located?",
+                "Can I visit the campus?"
+            ],
+            "responses": [
+                "You can reach the admissions office at (123) 456-7890 or email us at admissions@example.com.",
+                "Our campus is located at 123 College Ave, City, State. We welcome visitors; please check our website for campus tour details."
+            ]
+        }
+    ]
+}

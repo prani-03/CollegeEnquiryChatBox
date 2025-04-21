@@ -1,0 +1,10 @@
+Flask              # Web framework for building the web application
+Flask-Cors         # For handling Cross-Origin Resource Sharing (CORS)
+Flask-RESTful      # Extension for building REST APIs with Flask
+nltk               # Natural Language Toolkit for NLP tasks
+numpy              # Compatible version for Python 3.12
+tensorflow         # Machine learning library (if you're using a model)
+requests           # For making HTTP requests (if needed)
+gunicorn           # WSGI HTTP server for UNIX (for deployment)
+torch              # PyTorch for model support
+transformers       # Hugging Face Transformers library

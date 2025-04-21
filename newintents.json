@@ -1,0 +1,122 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "hey",
+                "howdy",
+                "good morning",
+                "good afternoon",
+                "good evening"
+            ],
+            "responses": [
+                "Hello! How can I help you today?",
+                "Hi there! What questions do you have about the college?",
+                "Hey! Welcome.  Ask me anything."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you",
+                "talk to you later",
+                "thanks",
+                "thank you"
+            ],
+            "responses": [
+                "Goodbye! Have a great day.",
+                "See you later!",
+                "You're welcome!  Is there anything else I can help with before you go?"
+            ]
+        },
+        {
+            "tag": "admission_requirements",
+            "patterns": [
+                "what are the admission requirements?",
+                "how do I apply?",
+                "what do I need to apply?",
+                "application process",
+                "admission process"
+            ],
+            "responses": [
+                "Admission requirements vary by program. Please visit [link to admissions page] for detailed information.",
+                "To apply, please follow the steps outlined on our website: [link to admissions page].",
+                "You'll need [list key requirements, e.g., transcripts, test scores, application fee] to apply.  Check the website for specifics: [link to admissions page]"
+            ]
+        },
+        {
+            "tag": "tuition_fees",
+            "patterns": [
+                "how much is tuition?",
+                "what are the fees?",
+                "tuition cost",
+                "cost of attendance",
+                "fees and charges"
+            ],
+            "responses": [
+                "Tuition fees vary depending on the program and the number of credits.  You can find a detailed breakdown here: [link to tuition page]",
+                "Please refer to our tuition and fees page for the most up-to-date information: [link to tuition page]"
+            ]
+        },
+        {
+            "tag": "program_information",
+            "patterns": [
+                "what programs do you offer?",
+                "what courses are available?",
+                "what majors do you have?",
+                "program list",
+                "available programs"
+            ],
+            "responses": [
+                "We offer a wide range of programs. You can explore our academic catalog here: [link to program catalog]",
+                "Please visit [link to program catalog] to see a complete list of available programs and courses."
+            ]
+        },
+        {
+            "tag": "financial_aid",
+            "patterns": [
+                "financial aid",
+                "scholarships",
+                "student loans",
+                "how to pay for college",
+                "affordability"
+            ],
+            "responses": [
+                "Information on financial aid, scholarships, and loans can be found on our financial aid page: [link to financial aid page]",
+                "We offer various financial aid options to help students fund their education.  Learn more here: [link to financial aid page]"
+            ]
+        },
+        {
+            "tag": "campus_life",
+            "patterns": [
+                "campus life",
+                "student activities",
+                "clubs",
+                "extracurricular activities",
+                "what to do on campus"
+            ],
+            "responses": [
+                "Our campus offers a vibrant student life with numerous clubs, organizations, and activities. Check out our student life page: [link to student life page]",
+                "Learn more about campus life and student activities here: [link to student life page]"
+            ]
+        },
+        {
+            "tag": "contact_us",
+            "patterns": [
+                "contact information",
+                "how to contact you",
+                "phone number",
+                "email address",
+                "address"
+            ],
+            "responses": [
+                "You can contact us by phone at [phone number], email at [email address], or visit us at [address].",
+                "For contact information, please visit our website's contact page: [link to contact page]"
+            ]
+        }
+    ]
+}
